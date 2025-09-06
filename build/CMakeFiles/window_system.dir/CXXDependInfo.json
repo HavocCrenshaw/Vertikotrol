@@ -1,0 +1,30 @@
+{
+	"bmi-installation" : null,
+	"compiler-frontend-variant" : "MSVC",
+	"compiler-id" : "MSVC",
+	"compiler-simulate-id" : "",
+	"config" : "Debug",
+	"cxx-modules" : {},
+	"database-info" : null,
+	"dir-cur-bld" : "C:/Workspace/Vertikotrol/build",
+	"dir-cur-src" : "C:/Workspace/Vertikotrol",
+	"dir-top-bld" : "C:/Workspace/Vertikotrol/build",
+	"dir-top-src" : "C:/Workspace/Vertikotrol",
+	"exports" : [],
+	"forward-modules-from-target-dirs" : [],
+	"include-dirs" : 
+	[
+		"C:\\Workspace\\Vertikotrol\\src"
+	],
+	"language" : "CXX",
+	"linked-target-dirs" : [],
+	"module-dir" : "C:/Workspace/Vertikotrol/build/CMakeFiles/window_system.dir",
+	"sources" : 
+	{
+		"CMakeFiles/window_system.dir/src/Window/MainWindow.cc.obj" : 
+		{
+			"language" : "CXX",
+			"source" : "C:/Workspace/Vertikotrol/src/Window/MainWindow.cc"
+		}
+	}
+}

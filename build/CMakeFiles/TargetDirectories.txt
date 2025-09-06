@@ -1,0 +1,4 @@
+C:/Workspace/Vertikotrol/build/CMakeFiles/window_system.dir
+C:/Workspace/Vertikotrol/build/CMakeFiles/VERTIKOTROL.dir
+C:/Workspace/Vertikotrol/build/CMakeFiles/edit_cache.dir
+C:/Workspace/Vertikotrol/build/CMakeFiles/rebuild_cache.dir

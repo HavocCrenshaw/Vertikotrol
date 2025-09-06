@@ -1,0 +1,14 @@
+{
+    "version": 1,
+    "revision": 0,
+    "rules": [
+        {
+            "primary-output": "CMakeFiles\\window_system.dir\\src\\Window\\MainWindow.cc.obj",
+            "outputs": [
+                "C:\\Workspace\\Vertikotrol\\build\\vc140.pdb",
+                "CMakeFiles\\window_system.dir\\src\\Window\\MainWindow.cc.obj.ddi"
+            ],
+            "requires": []
+        }
+    ]
+}
