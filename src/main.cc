@@ -1,6 +1,7 @@
 //
 // src/Main.cc
 //
+// The entry point for the application.
 
 #include <Window/MainWindow.h>
 

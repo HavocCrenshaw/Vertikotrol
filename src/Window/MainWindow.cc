@@ -1,7 +1,7 @@
 //
 // src/Window/MainWindow.cc
 //
-// Handle the creation of the main window and own the main loop
+// Implementation of MainWindow.
 
 #include <Window/MainWindow.h>
 
