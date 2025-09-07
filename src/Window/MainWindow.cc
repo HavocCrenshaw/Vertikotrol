@@ -21,12 +21,13 @@ static LRESULT CALLBACK handleMessages(
       // Update fonts, brushes, resources.
 
       // Update window
-      RECT* const newWindowRect = (RECT*)extraParams; // The extra params
-                                                      // contains a suggestion
-                                                      // for the new window
-                                                      // size and position.
+      
+      // The extraParams contain a suggestion for the new window size and
+      // position.
+      RECT* const newWindowRect = reinterpret_cast<RECT*>(extraParams);
       HWND noZOrderChange = nullptr;
       unsigned int flags = SWP_NOZORDER | SWP_NOACTIVATE;
+
       SetWindowPos(
         windowHandle,
         noZOrderChange,
