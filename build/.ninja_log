@@ -59,3 +59,15 @@
 325	696	7789005628241918	CMakeFiles/window_system.dir/src/Window/MainWindow.cc.obj	88813c0b6abb2426
 697	782	7789005631967081	window_system.lib	86c05c19747e6500
 783	966	7789005632825890	VERTIKOTROL.exe	7adf52bc0afe8bf0
+130	2061	7789637592104909	CMakeFiles/window_system.dir/src/Window/MainWindow.cc.obj.ddi	94cf5fcc507303b9
+2062	2121	7789637611370624	CMakeFiles/window_system.dir/CXX.dd	950e26b11ad99f38
+2062	2121	7789637611370624	CMakeFiles/window_system.dir/CXXModules.json	950e26b11ad99f38
+2062	2121	7789637611370624	CMakeFiles/window_system.dir/src/Window/MainWindow.cc.obj.modmap	950e26b11ad99f38
+141	2132	7789637592208253	CMakeFiles/VERTIKOTROL.dir/src/Main.cc.obj	473ff30636d3076a
+24	298	7789637985023942	CMakeFiles/window_system.dir/src/Window/MainWindow.cc.obj.ddi	94cf5fcc507303b9
+299	321	7789637987856902	CMakeFiles/window_system.dir/CXX.dd	950e26b11ad99f38
+299	321	7789637987856902	CMakeFiles/window_system.dir/CXXModules.json	950e26b11ad99f38
+299	321	7789637987856902	CMakeFiles/window_system.dir/src/Window/MainWindow.cc.obj.modmap	950e26b11ad99f38
+322	752	7789637988144930	CMakeFiles/window_system.dir/src/Window/MainWindow.cc.obj	88813c0b6abb2426
+753	840	7789637992456681	window_system.lib	86c05c19747e6500
+841	1341	7789637993328291	VERTIKOTROL.exe	7adf52bc0afe8bf0

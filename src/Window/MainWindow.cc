@@ -16,6 +16,30 @@ static LRESULT CALLBACK handleMessages(
   LPARAM extraParams
 ) {
   switch (msg) {
+    case WM_DPICHANGED: {
+      // unsigned short Dpi = HIWORD(basicParams);
+      // Update fonts, brushes, resources.
+
+      // Update window
+      RECT* const newWindowRect = (RECT*)extraParams; // The extra params
+                                                      // contains a suggestion
+                                                      // for the new window
+                                                      // size and position.
+      HWND noZOrderChange = nullptr;
+      unsigned int flags = SWP_NOZORDER | SWP_NOACTIVATE;
+      SetWindowPos(
+        windowHandle,
+        noZOrderChange,
+        newWindowRect->left,
+        newWindowRect->top,
+        newWindowRect->right - newWindowRect->left,
+        newWindowRect->bottom - newWindowRect->top,
+        flags
+      );
+
+      return 0;
+    }
+
     case WM_ERASEBKGND: {
       return 1; // We'll handle it in WM_PAINT
     }
